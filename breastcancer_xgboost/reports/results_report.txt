@@ -1,0 +1,48 @@
+
+
+XGBoost
+{'interaction_gen__interaction_only': False, 'model__max_depth': 6, 'model__gamma': 0.4006232881332003, 'model__subsample': 0.5690982761129963, 'model__eval_metric': 'mlogloss', 'model__learning_rate': 0.2947389759838927, 'model__lambda': 0.8010021466250888, 'model__scale_pos_weight': 0.6163107700509745}
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      1.00       262
+           1       1.00      0.99      0.99       153
+
+    accuracy                           1.00       415
+   macro avg       1.00      0.99      0.99       415
+weighted avg       1.00      1.00      1.00       415
+
+              precision    recall  f1-score   support
+
+           0       0.98      0.97      0.98        62
+           1       0.95      0.98      0.96        42
+
+    accuracy                           0.97       104
+   macro avg       0.97      0.97      0.97       104
+weighted avg       0.97      0.97      0.97       104
+
+final test accuracy:0.98
+final test f1 score:0.9714285714285714
+
+
+TabPFN
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      1.00       262
+           1       1.00      0.99      0.99       153
+
+    accuracy                           1.00       415
+   macro avg       1.00      0.99      0.99       415
+weighted avg       1.00      1.00      1.00       415
+
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99        62
+           1       1.00      0.98      0.99        42
+
+    accuracy                           0.99       104
+   macro avg       0.99      0.99      0.99       104
+weighted avg       0.99      0.99      0.99       104
+
+{'fit_time': array([0.00196099, 0.00154519, 0.00331497, 0.00180125, 0.00148988]), 'score_time': array([7.48191905, 7.75063801, 7.37537098, 7.01247382, 7.05259228]), 'test_score': array([0.97115385, 1.        , 1.        , 0.98076923, 0.95145631]), 'train_score': array([1.        , 0.99277108, 0.99277108, 0.99518072, 0.99759615])}
+final test accuracy:0.98
+final test f1 score:0.9696969696969697
